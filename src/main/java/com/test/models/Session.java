@@ -5,7 +5,7 @@ public class Session {
     private String topic;
     private int count;
 
-    Session(int duration, String topic, int count){
+    Session(int duration, int count, String topic){
         this.duration = duration;
         this.count = count;
         this.topic = topic;
