@@ -38,4 +38,8 @@ public class Habit {
     public void checkDonete(){
         done = !done;
     }
+
+    public void setStreak(int streak){
+        this.streak = streak;
+    }
 }
