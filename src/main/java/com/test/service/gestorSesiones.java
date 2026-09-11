@@ -1,12 +1,6 @@
 package com.test.service;
 
 import java.util.ArrayList;
-import java.util.List;
-
-import org.jline.reader.LineReader;
-import org.jline.reader.LineReaderBuilder;
-import org.jline.terminal.Terminal;
-import org.jline.terminal.TerminalBuilder;
 
 import com.test.models.Session;
 
@@ -43,5 +37,5 @@ public class gestorSesiones {
         }
     }
 
-    
+
 }
